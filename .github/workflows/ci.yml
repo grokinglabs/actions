@@ -18,6 +18,12 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
+      - name: lint
+        run: echo LINT
+
+      - name: format
+        run: echo FORMAT
+
       - name: build
         run: echo BUILD
 
